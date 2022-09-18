@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "build": "parcel build src/html/*.html"
+    "build": "parcel build --out-dir docs src/html/*.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
