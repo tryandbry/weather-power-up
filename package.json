@@ -2,13 +2,13 @@
   "name": "weather-power-up",
   "version": "1.0.0",
   "description": "My first Trello power-up",
-  "main": "index.js",
+  "main": "docs/index.html",
   "repository": "git@github.com:tryandbry/weather-power-up.git",
   "author": "Bryan W. Kao <bryan.w.kao@gmail.com>",
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "build": "parcel build --out-dir docs src/html/*.html"
+    "build": "parcel build --out-dir docs --public-url \"https://tryandbry.github.io/weather-power-up\" src/html/*.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
