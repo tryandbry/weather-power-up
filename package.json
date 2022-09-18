@@ -1,0 +1,16 @@
+{
+  "name": "weather-power-up",
+  "version": "1.0.0",
+  "description": "My first Trello power-up",
+  "main": "index.js",
+  "repository": "git@github.com:tryandbry/weather-power-up.git",
+  "author": "Bryan W. Kao <bryan.w.kao@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build": "parcel build src/html/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
